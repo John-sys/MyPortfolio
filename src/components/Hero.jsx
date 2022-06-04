@@ -4,7 +4,7 @@ import Typed from "react-typed";
 const Hero = () => {
   return (
     <div className="text-white  ">
-      <div className="max-w-[800px]  w-full h-screen mx-auto flex flex-col text-center justify-center ">
+      <div className="max-w-[800px]  w-full h-screen mx-auto flex flex-col text-center justify-center  ">
           <p className=" uppercase text-[#00df9a] font-bold p-2 ">Access to the best designs</p>
           <h1 className="font-bold md:text-7xl sm:text-6xl text-4xl">Growth in Business</h1>
           <div className="flex justify-center items-center">
