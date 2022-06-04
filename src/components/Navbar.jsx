@@ -67,7 +67,7 @@ const Navbar = () => {
           <li className=" text-lg font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out ">
             <a
               href="/"
-              className="text-gray-800 hover:text-gray duration-200 text-selected-text"
+              className="text-gray-800 hover:text-gray duration-200 "
             >
               Home
             </a>
