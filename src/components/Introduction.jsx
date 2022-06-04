@@ -3,7 +3,7 @@ import newImage from '../assets/newImage.jpg';
 
 const Introduction = () => {
   return (
-    <div className="w-full bg-[#e9ecef] py-7 px-4">
+    <div className="w-full bg-white py-7 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 text-black">
           <img src={newImage} alt="/" className=" items-center flex justify-center mx-auto my-4 w-[400px] h-[500px] rounded-lg drop-shadow-xl  "/>
           <div className="my-4 my-auto ">
