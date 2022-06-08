@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="text-white  ">
-      <div className="max-w-[800px]  w-full md:h-screen mx-auto flex flex-col text-center justify-center  ">
+      <div className="max-w-[800px]  w-full h-screen mx-auto flex flex-col text-center justify-center  ">
         <p className=" uppercase text-[#00df9a] font-bold p-2 ">
           LETS BUILD SOMETHING TOGETHER
         </p>

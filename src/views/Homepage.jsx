@@ -4,19 +4,22 @@ import Introduction from "../components/Introduction";
 import Advert from "../components/Advert";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
     <div className="w-full  text-white flex flex-col">
       <Hero />
 
-      <Introduction />
+      <Introduction id="about"/>
 
       <Advert />
 
       <Skills />
 
       <Projects />
+
+      <Footer/>
     </div>
   );
 };

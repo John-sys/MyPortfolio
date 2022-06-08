@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import About from "./views/About";
+// import About from "./views/About";
 import Homepage from "./views/Homepage";
 
 
@@ -13,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
       </Routes>
     </div>
   );

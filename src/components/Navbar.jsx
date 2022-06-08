@@ -63,7 +63,7 @@ const Navbar = () => {
         )}
 
         {/* Desktop menu view */}
-        <ul className="hidden md:flex md:items-center items-center mr-2 text-white">
+        <ul className="hidden md:flex md:items-center items-center mr-2 text-white ">
           <li className=" text-lg font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out ">
             <a
               href="/"
@@ -93,9 +93,9 @@ const Navbar = () => {
               href="#pricing"
               className="text-gray-800 hover:text-gray duration-200"
             >
-              Pricing
+              Projects
             </a>
-            <div className="bg-purple w-[9px] h-[9px] rounded-[50%] animate-pulse "></div>
+            {/* <div className="bg-purple w-[9px] h-[9px] rounded-[50%] animate-pulse "></div> */}
           </li>
           
         </ul>
