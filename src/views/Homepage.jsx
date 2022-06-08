@@ -1,7 +1,9 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Introduction from "../components/Introduction";
+import Advert from "../components/Advert";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 const Homepage = () => {
   return (
@@ -9,8 +11,12 @@ const Homepage = () => {
       <Hero />
 
       <Introduction />
-      
-      <Skills/>
+
+      <Advert />
+
+      <Skills />
+
+      <Projects />
     </div>
   );
 };
