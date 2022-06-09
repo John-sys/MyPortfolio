@@ -5,19 +5,22 @@ import Advert from "../components/Advert";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 const Homepage = () => {
   return (
     <div className="w-full  text-white flex flex-col">
       <Hero />
 
-      <Introduction id="about"/>
+      <Introduction/>
 
       <Advert />
 
       <Skills />
 
       <Projects />
+
+      <Contact/>
 
       <Footer/>
     </div>

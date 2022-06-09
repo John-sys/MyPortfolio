@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Mobile menu view */}
         {showMenu && (
           <ul className="md:hidden md:items-center items-center py-4 space-y-5 text-white ">
-            <li className="md:ml-8 text-lg border-b-2">
+            <li className="md:ml-8 text-lg ">
               <a
                 href="/"
                 className="text-gray-800 hover:text-gray duration-200 text-selected-text"
@@ -35,7 +35,7 @@ const Navbar = () => {
                 Home{" "}
               </a>
             </li>
-            <li className="md:ml-8 text-lg border-b-2">
+            <li className="md:ml-8 text-lg ">
               <a
                 href="/about"
                 className="text-gray-800 hover:text-gray duration-200"
@@ -43,7 +43,7 @@ const Navbar = () => {
                 Projects
               </a>
             </li>
-            <li className="md:ml-8 text-lg border-b-2">
+            <li className="md:ml-8 text-lg ">
               <a
                 href="/projects"
                 className="text-gray-800 hover:text-gray duration-200"
@@ -51,7 +51,7 @@ const Navbar = () => {
                 Services
               </a>
             </li>
-            <li className="md:ml-8 text-lg border-b-2">
+            <li className="md:ml-8 text-lg ">
               <a
                 href="/projects"
                 className="text-gray-800 hover:text-gray duration-200"
@@ -74,7 +74,7 @@ const Navbar = () => {
           </li>
           <li className="md:ml-8 text-lg font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
             <a
-              href="/about"
+              href="about"
               className="text-gray-800 hover:text-gray duration-200"
             >
               About
