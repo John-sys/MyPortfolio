@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
-import TextField from "@mui/material/TextField";
+import '../index.css'
 
 const Contact = () => {
   return (
@@ -56,17 +56,8 @@ const Contact = () => {
 
         {/* text fields */}
         <div className="">
-          <div className="p-4">
-            <TextField
-              className="w-full p-4 mt-8"
-              required
-              label="Your Name"
-              defaultValue="John"
-              varient="outlined"
-              focused="true"
-              //   value={}
-              //   onChange={}
-            />
+          <div className="p-4 text-white">
+
           </div>
         </div>
       </div>

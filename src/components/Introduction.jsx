@@ -8,7 +8,7 @@ import newImage from "../assets/newImage.jpg";
 const Introduction = () => {
   return (
     <div className="w-full bg-white py-7 px-4 " id="about">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 text-black">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 text-black ">
         <img
           src={newImage}
           alt="/"
