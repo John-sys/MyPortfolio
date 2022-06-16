@@ -1,5 +1,6 @@
 import React from "react";
 // import Typed from "react-typed";
+import Bounce from "react-reveal/Bounce";
 
 const Hero = () => {
   return (
@@ -20,10 +21,11 @@ const Hero = () => {
           I'm a front-end web developer specializing in building exceptional
           digital experiences.
         </p>
-        <button className=" bg-[#00df9a] w-[200px] rounded-md font-medium my-2 text-black hover:bg-gray mx-auto py-3 ">
-          Get Started
-        </button>
-        
+        <Bounce>
+          <button className=" bg-[#00df9a] w-[200px] rounded-md font-medium mt-6 text-black hover:bg-gray mx-auto py-3 ">
+            Get Started
+          </button>
+        </Bounce>
       </div>
     </div>
   );
