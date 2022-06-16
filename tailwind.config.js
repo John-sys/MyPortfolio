@@ -3,7 +3,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        lora: "'Lora', serif",
+        inconsolata: "'Inconsolata', monospace",
+      },
+    },
     screens: {
       'sm': '576px',
       // => @media (min-width: 576px) { ... }
@@ -29,6 +34,7 @@ module.exports = {
       'lightgray':'#677099',
       'gold':'#ffd60a',
     },
+
   },
   plugins: [],
 }
