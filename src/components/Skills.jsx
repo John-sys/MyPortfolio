@@ -1,10 +1,8 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 
 const Skills = () => {
   return (
     <div className="w-full md:py-2 px-4 ">
-      <Zoom>
         <div className="max-w-[1240px] md:mx-auto px-5">
           {/* title */}
           <div className=" md:mx-5 space-y-4 my-[30px] w-[250px] md:ml-[5rem] ">
@@ -75,7 +73,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </Zoom>
     </div>
   );
 };

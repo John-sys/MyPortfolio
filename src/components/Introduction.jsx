@@ -4,23 +4,18 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 import newImage from "../assets/newImage.jpg";
-import Slide from "react-reveal/Slide";
-import HeadShake from "react-reveal/HeadShake"
 
 const Introduction = () => {
   return (
     <div className="w-full bg-white py-7 px-4 " id="about">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 text-black ">
-        <Slide left>
           <img
             src={newImage}
             alt="/"
             className=" items-center flex justify-center mx-auto my-4 w-[400px] h-[500px] rounded-lg drop-shadow-xl "
           />
-        </Slide>
 
         <div className=" my-auto ">
-          <Slide right>
             <p className="uppercase text-[#00df9a] font-bold text-[20px] ">
               About
             </p>
@@ -40,9 +35,7 @@ const Introduction = () => {
               placeat reiciendis fuga repellendus perferendis aliquid numquam
               magni veritatis vel. Quasi, deserunt adipisci!{" "}
             </p>
-          </Slide>
 
-          <HeadShake>
             <div className="flex justify-start mt-5 space-x-7">
               <FaGithub
                 size={28}
@@ -61,7 +54,6 @@ const Introduction = () => {
                 className="hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out hover:text-red "
               />
             </div>
-          </HeadShake>
 
         </div>
       </div>
