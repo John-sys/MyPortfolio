@@ -74,6 +74,18 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
+        {/* Known Framworks Section */}
+        <div className="md:mx-5 space-y-4 my-[30px] w-[200px] md:ml-[5rem]">
+          <h1 className="text-2xl font-bold">Frameworks</h1>
+        </div>
+
+        <div className="flex flex-row flex-wrap  ">
+          <div className="">
+            <h1>React</h1>
+            
+          </div>
+        </div>
       </div>
     </div>
   );

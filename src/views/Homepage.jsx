@@ -12,7 +12,7 @@ const Homepage = () => {
     <div className="w-full  text-white flex flex-col">
       <Hero />
 
-      <Introduction/>
+      <Introduction />
 
       <Advert />
 
